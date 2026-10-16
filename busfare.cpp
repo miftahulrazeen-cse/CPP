@@ -12,19 +12,19 @@ int main()
     {
         if(age < 5)//condition for the fare of valid ages 
         {
-            cout << "Free";
+            cout << "0";
         }
         else if(age >= 5 && age <= 12)
         {
-            cout << "20 TAKA";
+            cout << "20";
         }
         else if(age >= 13 && age <= 59)
         {
-            cout << "40 TAKA";
+            cout << "40";
         }
         else 
         {
-            cout << "30 TAKA";
+            cout << "30";
         }
     }
     else 

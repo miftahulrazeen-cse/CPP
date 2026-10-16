@@ -4,11 +4,7 @@ using namespace std;
 int main()
 {
     int obtained, total;
-    cout << "INPUT OBTAINED MARK :";
-    cin >> obtained;
-
-    cout << "INPUT TOTAL MARK :";
-    cin >> total;
+    cin >> obtained >> total;
 
     float percentage = (float)obtained / (float)total * 100;
     cout << "PERCENTAGE :" << percentage;
